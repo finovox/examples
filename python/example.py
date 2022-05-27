@@ -1,7 +1,7 @@
 import requests
 filepath="sample.pdf"
 
-url = "https://api.finovox.com/analyse"
+url = "https://api-v2.finovox.com/analyse"
 filename=filepath.split('/')[-1]
 files=[('file',(filename,open(filepath,'rb')))]
 headers = {

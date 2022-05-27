@@ -8,7 +8,7 @@ let filepath='sample.pdf'
 data.append('file', fs.createReadStream(filepath));
 let config = {
   method: 'post',
-  url: "https://api.finovox.com/analyse",
+  url: "https://api-v2.finovox.com/analyse",
   headers: { 
     'api-key': 'YOUR_API_KEY', 
     ...data.getHeaders()
